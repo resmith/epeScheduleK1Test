@@ -45,8 +45,8 @@ export function getInputFields() {
     }, {
       part: '2',
       fieldType: 'begEndH',
-      name: 'Profit',
-      prompt: ['Beginning', 'End'],
+      name: 'ProfitLossCapitalHeading',
+      prompt: ['Beginning %', 'End %'],
     }, {
       part: '2',
       fieldType: 'begEndP',

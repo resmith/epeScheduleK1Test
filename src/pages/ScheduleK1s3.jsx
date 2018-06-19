@@ -29,8 +29,8 @@ class ScheduleK1s3 extends Component {
                   <h2>Schedule K1</h2>
                   <h3>(Form 1065)</h3>
                   {inputFields.filter(inputField => inputField.part === '3').map(inputField => (<RenderField key={inputField.name} inputField={inputField}/>))}
-                  <FlatButton label="Prev Part" />
-                  <FlatButton label="Next Part" primary={true} href="/step3"/>
+                  <FlatButton label="Prev Part" href="/step2"/>
+                  <FlatButton label="Next Part" primary={true} href="/step3" />
                   <br/>
                 </Col>
                 <Col xs={12} md={6}>

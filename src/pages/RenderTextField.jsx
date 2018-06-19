@@ -8,11 +8,13 @@ class RenderTextField extends PureComponent {
     return (
         <div>
           <Row className="textcol">
-            <Col xs={0} md={1} >
-              <div className="textcolIndicator">
-                {this.props.inputField.colIndicator ? this.props.inputField.colIndicator : ''}
-              </div>
-            </Col>
+            {this.props.inputField.colIndicator &&
+              <Col xs={0} md={1} >
+                <div className="textcolIndicator">
+                  {this.props.inputField.colIndicator ? this.props.inputField.colIndicator : ''}
+                </div>
+              </Col>
+            }
             <Col xs={0} md={11} className="textPrompt">
               <TextField
                 hintText={this.props.inputField.placeholder ? this.props.inputField.placeholder : ''}

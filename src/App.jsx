@@ -48,7 +48,7 @@ class scheduleK1App extends Component {
 
         <Route exact path="/step2" render={() => (
           <div>
-            <Header step={this.state.step} />
+            <Header step={1} />
             <ScheduleK1s2
               scheduleK1s={this.state.scheduleK1s}
             />
@@ -57,7 +57,7 @@ class scheduleK1App extends Component {
 
         <Route exact path="/step3" render={() => (
           <div>
-            <Header step={this.state.step} />
+            <Header step={2} />
             <ScheduleK1s3
               scheduleK1s={this.state.scheduleK1s}
             />
