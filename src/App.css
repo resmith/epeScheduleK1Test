@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.transparentBackground{
+  background:rgba(255,255,255,0.5);
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  color: rgb(187, 189, 193);
+}
+
+.Yrfirst2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9em;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.Yrlast2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9em;
+  color: rgb(0, 0, 0);
+}
+
+/*  Input field Styling */
+.textcol {
+  vertical-align: text-bottom;
+}
+
+.textcolIndicator {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  margin-top: 2;
+  vertical-align: baseline;
+  padding-top: 25px;
+}
+
+.textPrompt {
+  font-family: 'Roboto', sans-serif;
+}
+
+.numPrompt {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+}
+
+.numInput {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+}
+
+.rBtnPrompt {
+  font-family: 'Roboto', sans-serif;
+  font-size: .7em;
+}
+
+.cboxs {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  margin: 0 18px 0 0;
+}
+
+.cboxsLlabel {
+  margin: 9px 0 0;
+}
